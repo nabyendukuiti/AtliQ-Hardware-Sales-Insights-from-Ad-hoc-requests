@@ -5,6 +5,7 @@
 
 - [Introduction](#Introduction)
 - [Question and Solution](#question-and-solution)
+- [Power Bi Report](https://www.novypro.com/project/atliq-hardware-sales-insights-from-ad-hoc-requests)
 
 ***
 
