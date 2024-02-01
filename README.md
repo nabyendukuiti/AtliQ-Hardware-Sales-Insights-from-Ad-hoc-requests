@@ -1,5 +1,5 @@
 ## SQL Project #1: AtliQ Hardware Sales Insights from Ad-hoc requests
-![github cover](https://github.com/nabyendukuiti/AtliQ-Hardware-Sales-Insights-from-Ad-hoc-requests/assets/140970847/9ed44cc1-f2fe-4962-857d-88aa073f1605)
+![github cover](https://github.com/nabyendukuiti/AtliQ-Hardware-Sales-Insights-from-Ad-hoc-requests/assets/140970847/1d2e719c-53e9-41b4-b383-d831ffb244ac)
 
 ## Table of Contents
 
