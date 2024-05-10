@@ -1,4 +1,4 @@
-## SQL Project #1: AtliQ Hardware Sales Insights from Ad-hoc requests
+[AtliQ-Hardware-Sales-Insights final report.pdf](https://github.com/nabyendukuiti/AtliQ-Hardware-Sales-Insights-from-Ad-hoc-requests/files/15270956/AtliQ-Hardware-Sales-Insights.final.report.pdf)## SQL Project #1: AtliQ Hardware Sales Insights from Ad-hoc requests
 ![github cover](https://github.com/nabyendukuiti/AtliQ-Hardware-Sales-Insights-from-Ad-hoc-requests/assets/140970847/1d2e719c-53e9-41b4-b383-d831ffb244ac)
 
 ## Table of Contents
@@ -34,6 +34,10 @@ ORDER BY 2 DESC;
 #### Answer 1
 ![image](https://github.com/nabyendukuiti/AtliQ-Hardware-Sales-Insights-from-Ad-hoc-requests/assets/140970847/8d7cabf4-8a84-4fe6-aabb-6ab5c5d2ac4d)
 
+#### Report
+![RSS1](https://github.com/nabyendukuiti/AtliQ-Hardware-Sales-Insights-from-Ad-hoc-requests/assets/140970847/21893cac-37b8-4b88-94dd-c78eb802a2e1)
+
+
 
 > **2. What is the percentage of unique product increase in 2021 vs. 2020? 
 The final output contains these fields: unique_products_2020,unique_products_2021,percentage_chg**
@@ -54,7 +58,11 @@ from
 ```
 #### Answer 2
 ![image](https://github.com/nabyendukuiti/AtliQ-Hardware-Sales-Insights-from-Ad-hoc-requests/assets/140970847/89ac0575-f98c-4415-bf00-f3ec745f0f94)
-	
+
+#### Report
+![RSS2](https://github.com/nabyendukuiti/AtliQ-Hardware-Sales-Insights-from-Ad-hoc-requests/assets/140970847/13cc7e77-32f4-41fa-8e67-1bb488a8f420)
+
+ 
 
 > **3. Provide a report with all the unique product counts for each segment and sort them in descending order of product counts. 
 The final output contains 2 fields, segment & product_count**
@@ -68,6 +76,10 @@ ORDER BY 2 DESC;
 ```
 #### Answer 3
 ![image](https://github.com/nabyendukuiti/AtliQ-Hardware-Sales-Insights-from-Ad-hoc-requests/assets/140970847/1241fceb-45da-4fea-a6ee-66126832f39c)
+
+#### Report
+![RSS3](https://github.com/nabyendukuiti/AtliQ-Hardware-Sales-Insights-from-Ad-hoc-requests/assets/140970847/aef33db8-20c9-49b7-9079-e06af17aba29)
+
 
 
 > **4. Follow-up: Which segment had the most increase in unique products in 2021 vs 2020? 
@@ -103,7 +115,11 @@ LIMIT 1;
 ```
 #### Answer 4
 ![image](https://github.com/nabyendukuiti/AtliQ-Hardware-Sales-Insights-from-Ad-hoc-requests/assets/140970847/2f59434e-cd8e-47ed-8b7b-51641f0d0fba)
-	
+
+#### Report
+![RSS4](https://github.com/nabyendukuiti/AtliQ-Hardware-Sales-Insights-from-Ad-hoc-requests/assets/140970847/fe6201d2-da79-4c9f-9072-09a1a471e1d4)
+
+ 
 
 > **5. Get the products that have the highest and lowest manufacturing costs. 
 The final output should contain these fields: product_code,product,manufacturing_cost **
@@ -121,7 +137,11 @@ ORDER BY 3 DESC;
 ```
 #### Answer 5
 ![image](https://github.com/nabyendukuiti/AtliQ-Hardware-Sales-Insights-from-Ad-hoc-requests/assets/140970847/09646a54-0e3e-4d3f-ba1c-c7dfaf9f1e1f)
-	
+
+#### Report
+![RSS5](https://github.com/nabyendukuiti/AtliQ-Hardware-Sales-Insights-from-Ad-hoc-requests/assets/140970847/734d1d81-d6d8-4e12-92a6-ac9f3da9902f)
+
+ 
 
 > **6. Generate a report which contains the top 5 customers who received an 
 average high pre_invoice_discount_pct for the fiscal year 2021 and in the Indian market. 
@@ -140,6 +160,10 @@ LIMIT 5;
 ```
 #### Answer 6
 ![image](https://github.com/nabyendukuiti/AtliQ-Hardware-Sales-Insights-from-Ad-hoc-requests/assets/140970847/fce3c8f1-c731-4c63-9674-7fd8f3f3e036)
+
+#### Report
+![RSS6](https://github.com/nabyendukuiti/AtliQ-Hardware-Sales-Insights-from-Ad-hoc-requests/assets/140970847/160b865b-e0a2-4c74-bb94-b52d14659e1a)
+
 
  
 > **7. Get the complete report of the Gross sales amount for the customer “Atliq Exclusive” for each month . 
@@ -161,6 +185,10 @@ ORDER BY s.date,3;
 #### Answer 7
 ![image](https://github.com/nabyendukuiti/AtliQ-Hardware-Sales-Insights-from-Ad-hoc-requests/assets/140970847/469294c1-a509-4151-999d-d78e9214f751)
 
+#### Report
+![RSS7](https://github.com/nabyendukuiti/AtliQ-Hardware-Sales-Insights-from-Ad-hoc-requests/assets/140970847/4be7064e-1269-48ef-ae43-9f1a50fa5365)
+
+
 
  > **8. In which quarter of 2020, got the maximum total_sold_quantity? 
 The final output contains these fields sorted by the Quarter, total_sold_quantity **
@@ -180,7 +208,10 @@ ORDER BY 2 DESC;
 ```
 #### Answer 8
 ![image](https://github.com/nabyendukuiti/AtliQ-Hardware-Sales-Insights-from-Ad-hoc-requests/assets/140970847/502794c1-2228-487f-8bb8-435f96dbb61a)
-	
+
+#### Report
+![RSS8](https://github.com/nabyendukuiti/AtliQ-Hardware-Sales-Insights-from-Ad-hoc-requests/assets/140970847/1353b2d3-48b4-404a-9e47-ff9a4cee1b5b)
+
 
 > **9. Which channel helped to bring more gross sales in the fiscal year 2021 and the percentage of contribution? 
 The final output contains these fields:channel,gross_sales_mln,percentage **
@@ -205,6 +236,11 @@ GROUP BY 1,2;
 ```
 #### Answer 9
 ![image](https://github.com/nabyendukuiti/AtliQ-Hardware-Sales-Insights-from-Ad-hoc-requests/assets/140970847/f8502715-9a7a-408d-b9e4-f9ec9f1fe442)
+
+#### Report
+![RSS9](https://github.com/nabyendukuiti/AtliQ-Hardware-Sales-Insights-from-Ad-hoc-requests/assets/140970847/a2a733ca-4ace-43ae-bff8-305ab2f495cf)
+
+
 
  
 > **10. Get the Top 3 products in each division that have a high total_sold_quantity in the fiscal_year 2021? 
@@ -234,7 +270,11 @@ WHERE rank_order IN (1,2,3);
 ```
 #### Answer 10
 ![image](https://github.com/nabyendukuiti/AtliQ-Hardware-Sales-Insights-from-Ad-hoc-requests/assets/140970847/1efac098-7497-4f11-a5e5-383eabc3cca8)
-	
+
+#### Report
+![RSS10](https://github.com/nabyendukuiti/AtliQ-Hardware-Sales-Insights-from-Ad-hoc-requests/assets/140970847/4ed3dfe8-e4e1-44a4-9aa7-ff29294dc37a)
+
+
 
 ## Bonus Question
 > - Top 5 customer based on Gross sales
@@ -252,4 +292,6 @@ limit 5;
 ```
 #### Answer Bonus
 ![image](https://github.com/nabyendukuiti/AtliQ-Hardware-Sales-Insights-from-Ad-hoc-requests/assets/140970847/00341c17-f82c-4260-9eb5-e9db8628d681)
+
+
 
