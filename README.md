@@ -1,4 +1,4 @@
-[AtliQ-Hardware-Sales-Insights final report.pdf](https://github.com/nabyendukuiti/AtliQ-Hardware-Sales-Insights-from-Ad-hoc-requests/files/15270956/AtliQ-Hardware-Sales-Insights.final.report.pdf)## SQL Project #1: AtliQ Hardware Sales Insights from Ad-hoc requests
+## AtliQ Hardware Sales Insights from Ad-hoc requests
 ![github cover](https://github.com/nabyendukuiti/AtliQ-Hardware-Sales-Insights-from-Ad-hoc-requests/assets/140970847/1d2e719c-53e9-41b4-b383-d831ffb244ac)
 
 ## Table of Contents
