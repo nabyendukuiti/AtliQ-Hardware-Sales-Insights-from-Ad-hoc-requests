@@ -18,7 +18,7 @@ Task:
 3.    The target audience of this dashboard is top-level management - hence you need to create a presentation to show the insights.
 
 
-## Ad-Hoc requests and Solutions
+## Ad-Hoc Requests and Solutions
 > **1. Provide the list of markets in which customer "Atliq Exclusive" operates its business in the APAC region.**
 ```
 SELECT 
